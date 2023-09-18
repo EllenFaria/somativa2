@@ -1,0 +1,26 @@
+.App {
+  width: 500px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+input {
+  border-radius: 3px;
+}
+
+button {
+  border-radius: 3px
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
