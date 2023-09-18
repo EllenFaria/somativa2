@@ -27,7 +27,7 @@ class Login extends Component {
   handleSubmit(e) {
     e.preventDefault();
     if (
-      this.state.formData.email === "eduardo.lino@pucpr.br" &&
+      this.state.formData.email === "ellen@pucpr.br" &&
       this.state.formData.password === "123456"
     ) {
       this.setState({ validationEmail: true });
